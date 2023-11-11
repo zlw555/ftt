@@ -1,0 +1,13 @@
+Package: ru.rj.ftt
+Name: Flex3转Theos
+Depends: mobilesubstrate
+Description: 终端输入命令ftt
+Depiction: https://Randy-420.GitHub.io/depic/ftt.html
+Homepage: https://theemeraldisle.family
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Author: ipad_kid_Randy420 <ipadkid358@gmail.com, randy.skinner@hotmail.com>
+Section: Utilities
+Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
+Architecture: iphoneos-arm
+Version: 1.1
+Installed-Size: 120

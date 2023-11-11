@@ -564,7 +564,7 @@ int main(int argc, char *argv[]) {
 			fclose(hidesLog);
 /*Randy420 start add*/
 #if TARGET_OS_IPHONE
-			[UIPasteboard.generalPasteboard setValue:durl forPasteboardType:(id)kUTTypeUTF8PlainText];
+
 			text = local(@"DOWNLOAD_FROM", @"Repo link copied to ClipBoard");
 
 			printf("%s%s%s\n\n", greenColor, text.UTF8String, resetColor);
@@ -966,7 +966,7 @@ int main(int argc, char *argv[]) {
 	} else {
 		puts(genedCode.UTF8String);
 #if TARGET_OS_IPHONE
-		[UIPasteboard.generalPasteboard setValue:genedCode forPasteboardType:(id)kUTTypeUTF8PlainText];
+
 #endif
 		if (output) {
 #if TARGET_OS_IPHONE

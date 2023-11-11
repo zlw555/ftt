@@ -1,5 +1,6 @@
 FINALPACKAGE = 1
-export ARCHS = arm64 arm64e
+TARGET = iphone:14.5
+export ARCHS = arm64
 
     ftt_FRAMEWORKS = UIKit
     ftt_CODESIGN_FLAGS = -Sent.plist -Icom.ipadkid.ftt

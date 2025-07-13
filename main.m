@@ -784,9 +784,9 @@ int main(int argc, char *argv[]) {
 /*Randy420 end add*/
 		NSString *title = [[name componentsSeparatedByCharactersInSet:charsOnly] componentsJoinedByString:@""];
 		NSMutableString *makefile = [NSMutableString stringWithFormat:@""
-		"FINALPACKAGE= 1"//Randy420 add
+		"FINALPACKAGE= 1\n"//Randy420 add
         "TARGET = iphone:14.5\n"
-        "export ARCHS = arm64 arm64e"//Randy420 add
+        "export ARCHS = arm64 arm64e\n"//Randy420 add
         "include $(THEOS)/makefiles/common.mk\n\n"
 		"TWEAK_NAME=%@\n"
 		"%@_FILES=Tweak.%@\n", title, title, tweakFileExt];//Randy420 edit
